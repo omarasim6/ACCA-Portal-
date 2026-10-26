@@ -1,7 +1,3 @@
- "scripts": {
-     "build": "vite build",
-     "start": "node .output/server/index.mjs"
-   }
 {
   "name": "tanstack_start_ts",
   "private": true,
@@ -10,6 +6,7 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
+    "start": "node .output/server/index.mjs",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
